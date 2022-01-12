@@ -13,6 +13,7 @@
 # limitations under the License.
 # ==============================================================================
 """Tests for separable convolutional layers."""
+# pylint: disable=g-bad-import-order
 
 import tensorflow.compat.v2 as tf
 
