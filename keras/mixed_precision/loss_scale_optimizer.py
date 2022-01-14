@@ -1033,6 +1033,7 @@ class LossScaleOptimizerV1(LossScaleOptimizer):
     return cls(**config)
 
 
+@keras_export('keras.mixed_precision.experimental.LossScaleOptimizerV3', v1=[])
 class LossScaleOptimizerV3(tf.__internal__.tracking.DelegatingTrackableMixin,
                            optimizer_experimental.Optimizer):
   """An optimizer that applies loss scaling to prevent numeric underflow.

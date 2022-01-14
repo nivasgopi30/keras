@@ -5,6 +5,10 @@ tf_module {
     mtype: "<type \'type\'>"
   }
   member {
+    name: "LossScaleOptimizerV3"
+    mtype: "<type \'type\'>"
+  }
+  member {
     name: "Policy"
     mtype: "<type \'type\'>"
   }
