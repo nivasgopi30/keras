@@ -194,6 +194,11 @@ class _BaseOptimizer(tf.Module):
     return grads
 
   @property
+  def use_ema(self):
+    """Return if the optimizer uses EMA."""
+    return self._use_ema
+
+  @property
   def iterations(self):
     """The number of training steps this `optimizer` has run.
 
